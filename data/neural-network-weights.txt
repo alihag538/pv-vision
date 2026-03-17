@@ -1,0 +1,774 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-05-14T17:13:12.49/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2019-05-14T17:13:12.50/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-05-14T17:13:12.49/font-awesome/css/font-awesome.min.css" />
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.8.2" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>neural network weights -  - DuraMAT Data Hub</title>
+
+    
+    <link rel="shortcut icon" href="/base/images/ckan.ico" />
+    
+	
+    
+      
+    
+
+    <link rel="stylesheet" href="/base/css/base.css?v=1" />
+    <link rel="stylesheet" href="/base/css/primary.css?v=1" />
+    <link rel="stylesheet" href="/base/css/media.css?v=1" />
+    <link rel="stylesheet" href="/base/css/home.css?v=1" />
+
+	<link rel="stylesheet" href="/base/css/theme_base.css" />
+	
+  <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet' type='text/css'>
+	
+  <link rel="apple-touch-icon" sizes="180x180" href="/base/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/base/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/base/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/base/images/favicons/manifest.json">
+  <link rel="mask-icon" href="/base/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/base/images/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/base/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K5MBG46');</script>
+  <!-- End Google Tag Manager -->
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="neural network weights - DuraMAT Data Hub">
+  <meta property="og:description" content="Trained weights for neural networks. The models can be used to analyze EL images. More details available at https://github.com/hackingmaterials/pv-vision">
+
+    
+  </head>
+
+  
+  <body data-site-root="https://datahub.duramat.org/" data-locale-root="https://datahub.duramat.org/" >
+
+    
+    <div class="hide"><a href="#content">Skip to content</a></div>
+  
+
+  
+    
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K5MBG46"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  
+
+  
+  
+    <div class="alert alert-info alert-dismissible">
+      The EMN Data Hubs have new <strong><a href="/terms">Terms of Use</a></strong> and <strong><a href="/privacy">Privacy Policy</a></strong>.
+    </div>
+    <header class="account-masthead">
+      <div class="container">
+         
+        <nav class="account not-authed">
+          <ul class="list-unstyled">
+            
+    <li><a href="/user/login">Log in</a></li>
+    <li><a class="sub" href="/user/register">Register</a></li>
+    
+          </ul>
+        </nav>
+         
+      </div>
+    </header>
+  
+
+
+  
+    <div class="flash-messages">
+      
+          
+          <div class="alert alert-danger hidden">
+              <strong>NOTICE:</strong> This site works best in Chrome, Safari, and Firefox. Versions of Internet Explorer may not work correctly.
+          </div>
+      
+      </div>
+  
+
+  
+      
+  
+
+  <div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+      <div class="clearfix">
+        
+          <div class="navbar_header">
+            <a class="logo pull-left" href="/" title="Home">
+              <img src="/base/images/site-logo.png" alt="Home" class="navbar_logo">
+            </a>
+          </div>
+        
+        
+          <ul class="menu nav navbar-nav pull-right">
+            
+              
+	<li><a href="/">Home</a></li><li><a href="/project">Projects</a></li><li><a href="/dataset">Data</a></li><li><a href="/about">About</a></li><li><a href="/help">Help</a></li>
+
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+
+
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="fa fa-home"></i><span> Home</span></a></li>
+                    
+  
+    
+    
+      
+        
+        <li><a href="/project">Projects</a></li>
+        <li><a href="/project/electroluminescence-image-analysis">Electroluminescence Image ...</a></li>
+      
+    
+    <li class="active"><a class=" active" href="/dataset/neural-network-weights">neural network weights</a></li>
+  
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+            
+            
+            
+
+            
+              <aside class="secondary col-sm-3">
+                
+                
+
+  
+
+    
+    
+
+<div class="module module-narrow module-shallow">
+	<h2 class="module-heading">
+		<i class="fa fa-reorder"></i>
+		Dataset
+	</h2>
+	<nav>
+    <ul class="unstyled nav nav-simple">
+      <li class="nav-item active">
+        <a class=" active" href="/dataset/neural-network-weights">Data and Resources</a>
+      </li>
+			<li class="nav-item">
+				<a href="/dataset/metadata/neural-network-weights">Metadata</a>
+			</li>
+      
+    </ul>
+  </nav>
+</div>
+
+    
+    
+  
+
+
+              </aside>
+            
+
+            
+              <div class="primary col-sm-9 col-xs-12">
+                
+                
+  <article class="module">
+    <div class="module-content page-header">
+      <div class="media">
+          <div class="media-left">
+              
+
+              
+          </div>
+          <div class="media-body">
+
+            
+              <div class="pull-right">
+                
+        <a class="btn btn-default" href=mailto:chenxin0210@lbl.gov>
+            <i class="fa fa-envelope"></i>
+            Email Maintainer
+        </a>
+    
+              </div>
+            
+
+            <h1 class="page-heading">
+              
+  
+
+                
+
+
+  <span class="badge badge-public" data-toggle="tooltip" data-placement="top" title="These data are public">
+    <i class="fa fa-3x fa-unlock"></i>
+  </span>
+
+
+                neural network weights
+
+                
+
+                
+               - Data and Resources
+
+            </h1>
+            
+            <table class="table table-responsive table-condensed">
+              <tbody>
+                <tr>
+                  <th>Project ID</th>
+                  <td>e1590137-80ec-4eab-8640-fdd0d16bfbfa</td>
+                </tr>
+                <tr>
+                  <th>Dataset ID</th>
+                  <td>a1417b84-3724-47bc-90b8-b34660e462bb</td>
+                </tr>
+              </tbody>
+            </table>
+            
+          </div>
+        </div>
+    </div>
+    <div class="module-content">
+      
+      
+  <h2 class="hide-heading">Data and Resources</h2>
+  
+    
+
+<section id="dataset-resources" class="resources">
+  
+    
+      <ul class="resource-list">
+        
+          
+            
+
+
+<li class="resource-item" data-id="4bfb4a89-277d-4e48-abfe-96d7d1800b51">
+  
+  
+  <a class="heading" href="/dataset/neural-network-weights/resource/4bfb4a89-277d-4e48-abfe-96d7d1800b51" title="module_segmentation.zip">
+    module_segmentation.zip<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+
+  </a>
+  
+  
+  
+  <div>
+    
+      
+      
+    
+  </div>
+    <div>
+      <p class="description">
+        
+          <p class="empty">There is no description for this resource</p>
+        
+      </p>
+    </div>
+  
+  
+    
+      <div class="btn-group">
+        <a class="btn btn-default" href="/dataset/neural-network-weights/resource/4bfb4a89-277d-4e48-abfe-96d7d1800b51">
+          <i class="fa fa-info-circle"></i>
+          View
+        </a>
+        
+        
+      </div>
+    
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="cfe33e34-c1cd-4aea-a185-13de2cecd6ed">
+  
+  
+  <a class="heading" href="/dataset/neural-network-weights/resource/cfe33e34-c1cd-4aea-a185-13de2cecd6ed" title="cell_classification.zip">
+    cell_classification.zip<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+
+  </a>
+  
+  
+  
+  <div>
+    
+      
+      
+    
+  </div>
+    <div>
+      <p class="description">
+        
+          <p class="empty">There is no description for this resource</p>
+        
+      </p>
+    </div>
+  
+  
+    
+      <div class="btn-group">
+        <a class="btn btn-default" href="/dataset/neural-network-weights/resource/cfe33e34-c1cd-4aea-a185-13de2cecd6ed">
+          <i class="fa fa-info-circle"></i>
+          View
+        </a>
+        
+        
+      </div>
+    
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="45da3b55-fa96-471d-a231-07b98ec5dd8e">
+  
+  
+  <a class="heading" href="/dataset/neural-network-weights/resource/45da3b55-fa96-471d-a231-07b98ec5dd8e" title="crack_segmentation.zip">
+    crack_segmentation.zip<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+
+  </a>
+  
+  
+  
+  <div>
+    
+      
+      
+    
+  </div>
+    <div>
+      <p class="description">
+        
+          <p class="empty">There is no description for this resource</p>
+        
+      </p>
+    </div>
+  
+  
+    
+      <div class="btn-group">
+        <a class="btn btn-default" href="/dataset/neural-network-weights/resource/45da3b55-fa96-471d-a231-07b98ec5dd8e">
+          <i class="fa fa-info-circle"></i>
+          View
+        </a>
+        
+        
+      </div>
+    
+  
+</li>
+          
+            
+
+
+<li class="resource-item" data-id="7be0bda5-9674-469c-b871-0321d00fa4c4">
+  
+  
+  <a class="heading" href="/dataset/neural-network-weights/resource/7be0bda5-9674-469c-b871-0321d00fa4c4" title="defect_detection.zip">
+    defect_detection.zip<span class="format-label" property="dc:format" data-format="zip">ZIP</span>
+    
+
+  </a>
+  
+  
+  
+  <div>
+    
+      
+      
+    
+  </div>
+    <div>
+      <p class="description">
+        
+          <p class="empty">There is no description for this resource</p>
+        
+      </p>
+    </div>
+  
+  
+    
+      <div class="btn-group">
+        <a class="btn btn-default" href="/dataset/neural-network-weights/resource/7be0bda5-9674-469c-b871-0321d00fa4c4">
+          <i class="fa fa-info-circle"></i>
+          View
+        </a>
+        
+        
+      </div>
+    
+  
+</li>
+          
+        
+      </ul>
+    
+    
+</section>
+  
+
+    </div>
+  </article>
+
+              </div>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    
+    <footer class="site-footer">
+  <div class="container">
+    
+
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <span class="img_helper"></span>
+        <a href="https://energy.gov/eere/energy-materials-network/energy-materials-network" id="emn_logo"  target="_blank"><img class="img-responsive" src="/base/images/emn-logo.png" alt="emn logo" /></a>
+      </div>
+      <div class="col-md-2">
+        <span class="img_helper"></span>
+        <a href="https://www.nrel.gov/"><img class="img-responsive" id="nlr_logo" src="/base/images/logo-nlr-bw.png" alt="National Laboratory of the Rockies" /></a>
+      </div>
+      <div class="col-md-2">
+        <span class="img_helper"></span>
+        <a href="https://www.sandia.gov/"><img class="img-responsive" id="sandia_logo" src="/base/images/logo-sandia.png" alt="Sandia National Laboratory logo" /></a>
+      </div>
+      <div class="col-md-2">
+        <span class="img_helper"></span>
+        <a href="https://www.lbl.gov/"><img class="img-responsive" id="berkeley_logo" src="/base/images/logo-berkeley.png" alt="Lawrence Berkeley National Laboratory" /></a>
+      </div>
+      <div class="col-md-2">
+        <span class="img_helper"></span>
+        <a href="https://www6.slac.stanford.edu/"><img class="img-responsive" id="slac_logo" src="/base/images/logo-slac.png" alt="National Acceleration Laboratory" /></a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+  <hr/>
+
+  
+    <div class="row">
+      <div class="col-md-8 footer-links">
+        
+          <ul class="list-unstyled">
+            
+  <li>Use of this website constitutes acceptance of our <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a></li>
+  <li>Contact the <a href="mailto:EMNadmin@nrel.gov">data team</a> with <a href="mailto:EMNadmin@nrel.gov">questions and feedback</a> about the data hub.</li>
+  <li><a href="/about">About DuraMAT Data Hub</a></li>
+
+          </ul>
+          <ul class="list-unstyled">
+            
+  
+  <li><a href="http://docs.ckan.org/en/2.8/api/">DuraMAT Data Hub / CKAN API</a></li>
+  <li><span class="label label-default">v2.8.2</span></li>
+
+          </ul>
+        
+      </div>
+      <div class="col-md-4 attribution">
+        
+          <p><strong>Powered by</strong> <a class="hide-text ckan-footer-logo" href="http://ckan.org">CKAN</a></p>
+        
+        
+          
+<form class="form-inline form-select lang-select" action="/util/redirect" data-module="select-switch" method="POST">
+  <label for="field-lang-select">Language</label>
+  <select id="field-lang-select" name="url" data-module="autocomplete" data-module-dropdown-class="lang-dropdown" data-module-container-class="lang-container">
+    
+      <option value="/en/dataset/neural-network-weights" selected="selected">
+        English
+      </option>
+    
+      <option value="/pt_BR/dataset/neural-network-weights" >
+        português (Brasil)
+      </option>
+    
+      <option value="/ja/dataset/neural-network-weights" >
+        日本語
+      </option>
+    
+      <option value="/it/dataset/neural-network-weights" >
+        italiano
+      </option>
+    
+      <option value="/cs_CZ/dataset/neural-network-weights" >
+        čeština (Česká republika)
+      </option>
+    
+      <option value="/ca/dataset/neural-network-weights" >
+        català
+      </option>
+    
+      <option value="/es/dataset/neural-network-weights" >
+        español
+      </option>
+    
+      <option value="/fr/dataset/neural-network-weights" >
+        français
+      </option>
+    
+      <option value="/el/dataset/neural-network-weights" >
+        Ελληνικά
+      </option>
+    
+      <option value="/sv/dataset/neural-network-weights" >
+        svenska
+      </option>
+    
+      <option value="/sr/dataset/neural-network-weights" >
+        српски
+      </option>
+    
+      <option value="/no/dataset/neural-network-weights" >
+        norsk bokmål (Norge)
+      </option>
+    
+      <option value="/sk/dataset/neural-network-weights" >
+        slovenčina
+      </option>
+    
+      <option value="/fi/dataset/neural-network-weights" >
+        suomi
+      </option>
+    
+      <option value="/ru/dataset/neural-network-weights" >
+        русский
+      </option>
+    
+      <option value="/de/dataset/neural-network-weights" >
+        Deutsch
+      </option>
+    
+      <option value="/pl/dataset/neural-network-weights" >
+        polski
+      </option>
+    
+      <option value="/nl/dataset/neural-network-weights" >
+        Nederlands
+      </option>
+    
+      <option value="/bg/dataset/neural-network-weights" >
+        български
+      </option>
+    
+      <option value="/ko_KR/dataset/neural-network-weights" >
+        한국어 (대한민국)
+      </option>
+    
+      <option value="/hu/dataset/neural-network-weights" >
+        magyar
+      </option>
+    
+      <option value="/sl/dataset/neural-network-weights" >
+        slovenščina
+      </option>
+    
+      <option value="/lv/dataset/neural-network-weights" >
+        latviešu
+      </option>
+    
+      <option value="/mk/dataset/neural-network-weights" >
+        македонски
+      </option>
+    
+      <option value="/tr/dataset/neural-network-weights" >
+        Türkçe
+      </option>
+    
+      <option value="/pt_PT/dataset/neural-network-weights" >
+        português (Portugal)
+      </option>
+    
+      <option value="/km/dataset/neural-network-weights" >
+        ខ្មែរ
+      </option>
+    
+      <option value="/lt/dataset/neural-network-weights" >
+        lietuvių
+      </option>
+    
+      <option value="/zh_CN/dataset/neural-network-weights" >
+        中文 (简体, 中国)
+      </option>
+    
+      <option value="/ro/dataset/neural-network-weights" >
+        română
+      </option>
+    
+      <option value="/da_DK/dataset/neural-network-weights" >
+        dansk (Danmark)
+      </option>
+    
+      <option value="/sr_Latn/dataset/neural-network-weights" >
+        srpski (latinica)
+      </option>
+    
+      <option value="/uk/dataset/neural-network-weights" >
+        українська
+      </option>
+    
+      <option value="/tl/dataset/neural-network-weights" >
+        Filipino (Pilipinas)
+      </option>
+    
+      <option value="/zh_TW/dataset/neural-network-weights" >
+        中文 (繁體, 台灣)
+      </option>
+    
+      <option value="/en_AU/dataset/neural-network-weights" >
+        English (Australia)
+      </option>
+    
+      <option value="/hr/dataset/neural-network-weights" >
+        hrvatski
+      </option>
+    
+      <option value="/th/dataset/neural-network-weights" >
+        ไทย
+      </option>
+    
+      <option value="/es_AR/dataset/neural-network-weights" >
+        español (Argentina)
+      </option>
+    
+      <option value="/gl/dataset/neural-network-weights" >
+        galego
+      </option>
+    
+      <option value="/ne/dataset/neural-network-weights" >
+        नेपाली
+      </option>
+    
+      <option value="/ar/dataset/neural-network-weights" >
+        العربية
+      </option>
+    
+      <option value="/mn_MN/dataset/neural-network-weights" >
+        монгол (Монгол)
+      </option>
+    
+      <option value="/sq/dataset/neural-network-weights" >
+        shqip
+      </option>
+    
+      <option value="/id/dataset/neural-network-weights" >
+        Indonesia
+      </option>
+    
+      <option value="/uk_UA/dataset/neural-network-weights" >
+        українська (Україна)
+      </option>
+    
+      <option value="/vi/dataset/neural-network-weights" >
+        Tiếng Việt
+      </option>
+    
+      <option value="/is/dataset/neural-network-weights" >
+        íslenska
+      </option>
+    
+      <option value="/fa_IR/dataset/neural-network-weights" >
+        فارسی (ایران)
+      </option>
+    
+      <option value="/he/dataset/neural-network-weights" >
+        עברית
+      </option>
+    
+  </select>
+  <button class="btn btn-default js-hide" type="submit">Go</button>
+</form>
+        
+      </div>
+    </div>
+    
+
+
+  </div>
+
+  
+    
+  
+</footer>
+  
+
+    
+    
+    
+  
+    
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-05-14T17:13:12.49/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-05-14T17:13:12.49/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2025-01-23T19:24:51.48/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;plugins/jquery.images-loaded.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js;modules/followers-counter.min.js"></script>
+<script type="text/javascript" src="/fanstatic/emn_theme/:version:2019-05-23T22:02:07.85/index.js"></script></body>
+</html>
