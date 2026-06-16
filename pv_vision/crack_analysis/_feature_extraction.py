@@ -92,7 +92,7 @@ def skeleton_cell(ske_crack, pos_busbar):
     ske_cell: array
     Skeleton of cell
     """
-    ske_cell = ske_crack * -1
+    ske_cell = ske_crack.astype(np.int16) * -1
     for i in pos_busbar:
         ske_cell[i, :] = 1
 

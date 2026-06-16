@@ -1,0 +1,2 @@
+image name,image path,annotation path,inactive percentage,crack_length_pixels,brightness_inactive_only
+sample_raw,C:\Users\IFE13581\OneDrive - Institutt for Energiteknikk\Attachments\Electroluminesence\pv-vision\examples\crack_segmentation\img_for_crack_analysis\sample_raw.jpg,C:\Users\IFE13581\OneDrive - Institutt for Energiteknikk\Attachments\Electroluminesence\pv-vision\examples\crack_segmentation\img_for_crack_analysis\sample_ann.png,2.620625,990,0.38002646801625495
